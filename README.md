@@ -19,19 +19,23 @@ Aplikasi dikembangkan dalam bentuk **dashboard interaktif berbasis Streamlit** y
 
 ## Dataset
 
-Dataset yang digunakan adalah **ecommerce_sales_dataset.csv** dengan atribut utama sebagai berikut:
+Dataset yang digunakan adalah **ecommerce_sales_dataset.csv** dengan atribut utama setelah penghapusan kolom yang tidak digunakan sebagai berikut:
 
-* `customer_id`
 * `order_id`
-* `order_date`
-* `quantity`
+* `customer_id`
+* `category`
 * `price`
 * `discount`
-* `shipping_cost`
-* `category`
+* `quantity`
 * `payment_method`
-* `customer_gender`
+* `order_date`
+* `delivery_time_days`
+* `region`
+* `returned`
+* `total_amount`
+* `shipping_cost`
 * `customer_age`
+* `customer_gender`
 
 Dataset diproses untuk membentuk fitur RFM pada level pelanggan.
 
